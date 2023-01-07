@@ -139,6 +139,7 @@ section {
 }
 
 .banner-content {
+    /* margin-bottom: 130px; */
     padding: 60px 64px;
 }
 
@@ -151,4 +152,72 @@ section {
     color: #F15B22;
     background-color: #F3F3F3;
     padding: 21px 36px;
+}
+
+
+/* Footer's Style */
+.footer {
+    background-color: #151414;
+    margin-top: 130px;
+    padding: 130px 230px;
+    color: #fff;
+    display: flex;
+}
+
+.text-content {
+    width: 485px;
+}
+
+.text-header {
+    font-weight: 700;
+    font-size: 45px;
+    color: #F8F8F8;
+    margin-bottom: 16px;
+}
+
+.text-descriptionn {
+    color: #FFFFFF;
+}
+
+.contact {
+    margin-top: 24px;
+}
+
+.contact p {
+    margin-bottom: 16px;
+}
+
+.social-icons {
+    margin-top: 32px;
+}
+
+.social-icons img {
+    margin-right: 17px;
+}
+
+.subscribe {
+    margin-left: 330px;
+}
+
+.subscribe-title {
+    font-weight: 600;
+    font-size: 25px;
+    color: #FFFFFF;
+    margin-bottom: 32px;
+}
+
+.subscribe-form input {
+    box-sizing: border-box;
+    background-color: #151414;
+    width: 325px;
+    height: 64px;
+    border: 1px solid #FFF;
+    border-radius: 8px;
+    padding-left: 21px;
+}
+
+.form-btn {
+    margin-top: 16px;
+    padding: 20px 36px;
+    color: #F15B22;
 }
