@@ -18,6 +18,12 @@
     color: #151414;
 }
 
+.section-sub-title {
+    font-weight: 700;
+    font-size: 30px;
+    color: #151414;
+}
+
 .section-list li {
     list-style: none;
 }
@@ -59,7 +65,7 @@
 
 /* Failure-Section's Style */
 .failure-section {
-    background-color: #F3F3F3;;
+    background-color: #F3F3F3;
     display: flex;
 }
 
@@ -67,9 +73,10 @@
     margin-top: 131px;
     margin-left: 206px;
 }
+
 .failure-img img {
     width: 569px;
-height: 723.3px;
+    height: 723.3px;
 }
 
 .failure-content {
@@ -91,4 +98,29 @@ height: 723.3px;
 
 .list-items li {
     margin-bottom: 8px;
+}
+
+
+/* My Plans Section's Style */
+.my-plans-section {
+    background-color: #F3F3F3;
+    padding: 130px 220px;
+    text-align: center;
+}
+
+.my-plan-items {
+    margin-top: 50px;
+    justify-content: space-between;
+    display: flex;
+}
+
+.plan-item h3 {
+    margin-top: 18px;
+}
+
+.plan-item h5 {
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
+    margin-top: 16px;
 }
