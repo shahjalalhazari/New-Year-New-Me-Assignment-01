@@ -63,9 +63,14 @@
 }
 
 
+/* Section's Style */
+section {
+    background-color: #F3F3F3;
+}
+
+
 /* Failure-Section's Style */
 .failure-section {
-    background-color: #F3F3F3;
     display: flex;
 }
 
@@ -103,7 +108,6 @@
 
 /* My Plans Section's Style */
 .my-plans-section {
-    background-color: #F3F3F3;
     padding: 130px 220px;
     text-align: center;
 }
@@ -123,4 +127,28 @@
     font-size: 25px;
     color: #737272;
     margin-top: 16px;
+}
+
+
+/* Banner Section's Style */
+.banner-section {
+    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%), url("../images/watch.png");
+    background-repeat: no-repeat;
+    border-radius: 8px;
+    margin: 0 230px;
+}
+
+.banner-content {
+    padding: 60px 64px;
+}
+
+.banner-section h2 {
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+
+.call-btn {
+    color: #F15B22;
+    background-color: #F3F3F3;
+    padding: 21px 36px;
 }
